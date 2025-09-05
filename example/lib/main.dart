@@ -45,7 +45,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  static final LatLng _londonCityCenter = LatLng.degree(51.509865, -0.118092);
+  static final LatLng _londonCityCenter = LatLng.degree(23.0225, 72.5714);
 
   static final List<LatLng> _timesSquarePolygon = [
     LatLng.degree(40.758078, -73.985640),

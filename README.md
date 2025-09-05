@@ -7,13 +7,13 @@
 
 A Flutter plugin that enables you to easily handle geofencing events in your Flutter app by utilizing native OS APIs on `Android` by creating a foreground service while being battery efficient since it uses the [Geofence](https://developer.android.com/training/location/geofencing) and [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager) APIs. And on `iOS` by utilizing the [CLLocationManager](https://developer.apple.com/documentation/corelocation/cllocationmanager)
 
-It's important to note that the [workmanager](https://pub.dev/packages/workmanager)
+It's important to note that the [work manager](https://pub.dev/packages/workmanager)
 and [flutter_foreground_task](https://pub.dev/packages/flutter_foreground_task) plugins were a
 great source of inspiration while creating this plugin.
 
-Android|iOS
---|--
-![Android Demo](https://github.com/Basel-525k/geofence_foreground_service/blob/main/assets/gifs/Geofencing_Android.gif)|![iOS Demo](https://github.com/Basel-525k/geofence_foreground_service/blob/main/assets/gifs/Geofencing_iOS.gif)
+| Android                                                                                                                 | iOS                                                                                                             |
+|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| ![Android Demo](https://github.com/Basel-525k/geofence_foreground_service/blob/main/assets/gifs/Geofencing_Android.gif) | ![iOS Demo](https://github.com/Basel-525k/geofence_foreground_service/blob/main/assets/gifs/Geofencing_iOS.gif) |
 
 ## Features
 
@@ -42,7 +42,7 @@ Android|iOS
 <!--required-->
 <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
 
-<!--at least one of the follwoing-->
+<!--at least one of the following-->
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 ```
